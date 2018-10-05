@@ -43,6 +43,7 @@ export default class Clients extends Component {
 							<li>Ralph Lauren</li>
 							<li>Reed Krakoff</li>
 							<li>Sean John</li>
+							<li>Self-Portrait</li>
 							<li>The Row</li>
 							<li>Thom Browne</li>
 							<li>Tommy Hilfiger</li>
