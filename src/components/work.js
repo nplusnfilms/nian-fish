@@ -12,10 +12,10 @@ let customers = [
 		id: '0',
 		name: 'Victoria Beckham',
 		img: [
-			'assets/img/victoria-beckham/1.png',
-			'assets/img/victoria-beckham/2.png',
-			'assets/img/victoria-beckham/3.png',
-			'assets/img/victoria-beckham/4.png'
+			'assets/img/Victoria-Beckham/1.png',
+			'assets/img/Victoria-Beckham/2.png',
+			'assets/img/Victoria-Beckham/3.png',
+			'assets/img/Victoria-Beckham/4.png'
 		]
 	},
 	{
@@ -214,7 +214,7 @@ export default class Work extends Component {
 
 	render () {
 		const { isOpen, photoIndex, selectedID } = this.state
-		
+
 		return (
 			<div>
 				<h1>Work</h1>
