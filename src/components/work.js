@@ -10,6 +10,15 @@ const scroll = Scroll.animateScroll
 let customers = [
 	{
 		id: '0',
+		name: 'The Row',
+		img: [
+			'assets/img/The-Row/1.png',
+			'assets/img/The-Row/2.png',
+			'assets/img/The-Row/3.png'
+		]
+	},
+	{
+		id: '1',
 		name: 'Victoria Beckham',
 		img: [
 			'assets/img/Victoria-Beckham/1.png',
@@ -19,37 +28,7 @@ let customers = [
 		]
 	},
 	{
-		id: '1',
-		name: 'Tommy Hilfiger W',
-		img: [
-			'assets/img/Tommy-Hilfiger-W/1.png',
-			'assets/img/Tommy-Hilfiger-W/2.png',
-			'assets/img/Tommy-Hilfiger-W/3.png'
-		]
-	},
-	{
 		id: '2',
-		name: 'Calvin Klein W',
-		img: [
-			'assets/img/Calvin-Klein-W/1.png',
-			'assets/img/Calvin-Klein-W/2.png',
-			'assets/img/Calvin-Klein-W/3.png',
-			'assets/img/Calvin-Klein-W/4.png',
-		]
-	},
-	{
-		id: '3',
-		name: 'Self-Portrait',
-		img: [
-			'assets/img/Self-Portrait/1.png',
-			'assets/img/Self-Portrait/2.png',
-			'assets/img/Self-Portrait/3.png',
-			'assets/img/Self-Portrait/4.png',
-			'assets/img/Self-Portrait/5.png',
-		]
-	},
-	{
-		id: '4',
 		name: 'Tory Burch',
 		img: [
 			'assets/img/Tory-Burch/1.png',
@@ -60,14 +39,45 @@ let customers = [
 		]
 	},
 	{
-		id: '5',
-		name: 'Thom Browne M',
+		id: '3',
+		name: 'Calvin Klein W',
 		img: [
-			'assets/img/Thom-Browne-M/1.jpg',
+			'assets/img/Calvin-Klein-W/1.png',
+			'assets/img/Calvin-Klein-W/2.png',
+			'assets/img/Calvin-Klein-W/3.png',
+			'assets/img/Calvin-Klein-W/4.png',
+		]
+	},
+	{
+		id: '4',
+		name: 'Narciso Rodriguez',
+		img: [
+			'assets/img/Narciso-Rodriguez/1.png',
+			'assets/img/Narciso-Rodriguez/2.png'
+		]
+	},
+	{
+		id: '5',
+		name: 'Self-Portrait',
+		img: [
+			'assets/img/Self-Portrait/1.png',
+			'assets/img/Self-Portrait/2.png',
+			'assets/img/Self-Portrait/3.png',
+			'assets/img/Self-Portrait/4.png',
+			'assets/img/Self-Portrait/5.png',
 		]
 	},
 	{
 		id: '6',
+		name: 'Tommy Hilfiger W',
+		img: [
+			'assets/img/Tommy-Hilfiger-W/1.png',
+			'assets/img/Tommy-Hilfiger-W/2.png',
+			'assets/img/Tommy-Hilfiger-W/3.png'
+		]
+	},
+	{
+		id: '7',
 		name: 'Thom Browne W',
 		img: [
 			'assets/img/Thom-Browne-W/1.png',
@@ -75,21 +85,36 @@ let customers = [
 		]
 	},
 	{
-		id: '7',
+		id: '8',
+		name: 'Thom Browne M',
+		img: [
+			'assets/img/Thom-Browne-M/1.jpg',
+		]
+	},
+	{
+		id: '9',
+		name: 'Moncler Gamme Bleu',
+		img: [
+			'assets/img/Moncler-Gamme-Bleu/1.png',
+			'assets/img/Moncler-Gamme-Bleu/2.png'
+		]
+	},
+	{
+		id: '10',
 		name: 'Tommy Hilfiger M',
 		img: [
 			'assets/img/Tommy-Hilfiger-M/1.jpg'
 		]
 	},
 	{
-		id: '8',
+		id: '11',
 		name: 'Vera Wang',
 		img: [
 			'assets/img/Vera-Wang/1.jpg'
 		]
 	},
 	{
-		id: '9',
+		id: '12',
 		name: 'Calvin Klein M',
 		img: [
 			'assets/img/Calvin-Klein-M/1.png',
@@ -98,94 +123,71 @@ let customers = [
 		]
 	},
 	{
-		id: '10',
+		id: '13',
 		name: 'Reem Acra',
 		img: [
 			'assets/img/Reem-Acra/1.jpg'
 		]
 	},
 	{
-		id: '11',
+		id: '14',
 		name: 'Vertu',
 		img: [
 			'assets/img/Vertu/1.jpg'
 		]
 	},
 	{
-		id: '12',
+		id: '15',
 		name: 'H&M',
 		img: [
 			'assets/img/H-M/1.jpg'
 		]
 	},
 	{
-		id: '13',
+		id: '16',
 		name: 'Zac Posen',
 		img: [
 			'assets/img/Zac-Posen/1.jpg'
 		]
 	},
 	{
-		id: '14',
+		id: '17',
 		name: 'Sean John',
 		img: [
 			'assets/img/Sean-John/1.jpg'
 		]
 	},
 	{
-		id: '15',
+		id: '18',
 		name: 'Chloe',
 		img: [
 			'assets/img/Chloe/1.jpg'
 		]
 	},
 	{
-		id: '16',
+		id: '19',
 		name: 'Reed Krakoff',
 		img: [
 			'assets/img/Reed-Krakoff/1.jpg'
 		]
 	},
-
 	{
-		id: '17',
+		id: '20',
 		name: 'Jil Sander',
 		img: [
 			'assets/img/Jil-Sander/1.jpg'
 		]
 	},
 	{
-		id: '18',
+		id: '21',
 		name: 'Pedro Lorenco',
 		img: [
 			'assets/img/Pedro-Lorenco/1.jpg'
 		]
 	},
-	{
-		id: '19',
-		name: 'Moncler Gamme Bleu',
-		img: [
-			'assets/img/Moncler-Gamme-Bleu/1.png',
-			'assets/img/Moncler-Gamme-Bleu/2.png'
-		]
-	},
-	{
-		id: '20',
-		name: 'Narciso Rodriguez',
-		img: [
-			'assets/img/Narciso-Rodriguez/1.png',
-			'assets/img/Narciso-Rodriguez/2.png'
-		]
-	},
-	{
-		id: '21',
-		name: 'The Row',
-		img: [
-			'assets/img/The-Row/1.png',
-			'assets/img/The-Row/2.png',
-			'assets/img/The-Row/3.png'
-		]
-	},
+
+
+
 ]
 
 export default class Work extends Component {
