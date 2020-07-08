@@ -68,6 +68,9 @@ export default class App extends Component {
 								<Link to={`/work`} activeClassName="active" onClick={this.handleClick}>Work</Link>
 							</li>
 							<li>
+								<Link to={{ pathname: "https://nplusnfilms.com/" }} target="_blank">Films</Link>
+							</li>
+							<li>
 								<Link to={`/clients`} activeClassName="active" onClick={this.handleClick}>Clients</Link>
 							</li>
 							<li>
@@ -83,7 +86,7 @@ export default class App extends Component {
 
 					<footer className="footer">
 						<a href="https://www.instagram.com/nianfish" target="_blank" className="pull-center">Follow us on Instagram</a>
-						<p>&copy; 2016. All images and films on this site belong to Nian Fish. All work is protected by copyright.</p>
+						<p>&nbsp;</p>
 					</footer>
 				</div>
 			</div>

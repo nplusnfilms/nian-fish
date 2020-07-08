@@ -34,6 +34,7 @@ export default class Clients extends Component {
 							<li>John Galliano</li>
 							<li>Loewe</li>
 							<li>Marc Jacobs</li>
+							<li>Marina Moscone</li>
 							<li>Miu Miu</li>
 							<li>Moncler</li>
 							<li>Narciso Rodriguez</li>
