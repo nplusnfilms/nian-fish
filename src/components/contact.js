@@ -18,12 +18,11 @@ export default class Contact extends Component {
 						<RouteTransition pathname={this.props.location.pathname} {...presets.fade}>
 							<div>
 								<div className="address">
-									17 West 9th Street<br />
-									Ground Floor<br />
-									NYC 10011, USA
+									Nian Fish<br />
+									PO Box 1423<br />
+									Woodstock, NY 12498, USA
 								</div>
 								<div className="address">
-									1 212 933 1349<br />
 									<a href="mailto:info@nianfish.com">info@nianfish.com</a><br />
 									<a href="https://www.instagram.com/nianfish">@nianfish</a>
 								</div>
