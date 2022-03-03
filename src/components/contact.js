@@ -20,7 +20,7 @@ export default class Contact extends Component {
 								<div className="address">
 									Nian Fish<br />
 									PO Box 1423<br />
-									Woodstock, NY 12498, USA
+									Woodstock, NY 12498
 								</div>
 								<div className="address">
 									<a href="mailto:info@nianfish.com">info@nianfish.com</a><br />
